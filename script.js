@@ -3,9 +3,10 @@ function myFunction() {
 }
 
 let btn = document.getElementById("projects-btn")
-document.addEventListener('DOMContentLoaded', function () {
-    projects-btn.addEventListener('click', myFunction, false);
-});
+// document.addEventListener('DOMContentLoaded', function () {
+//     projects-btn.addEventListener('click', myFunction, false);
+// });
 
 btn.addEventListener('click', myFunction)
+console.log("hi")
 
