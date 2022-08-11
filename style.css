@@ -69,12 +69,14 @@ nav ::before {
 
 main {
     display: flexbox;
+    justify-content: center;
+    align-items: center;
 }
 
 main video {
     position: relative;
     width: 100%;
-    margin-bottom: 2-rem;
+    /* margin-bottom: 2m-re; */
 }
 
 .typewriter {
