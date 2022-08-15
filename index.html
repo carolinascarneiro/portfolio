@@ -24,23 +24,169 @@
                     <li>Berlin, Germany</li>
                 </ul>
                 <ul id="items">
-                    <li id="home">Home</li>
+                    <li id="home-btn">Home</li>
                     <li id="projects-btn">Projects</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li id="about-btn">About</li>
+                    <li id="contact-btn">Contact</li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main id="main-container">
-        <video autoplay muted loop id="myVideo">
-            <source src="assets/videos/3138850444.mp4" type="video/mp4">
-        </video>
 
-        <div class="typewriter">
-            <div class="typewriter-text">Hello, I'm Carolina, a Full-Stack Developer.</div>
+    <main>
+        <div id="home">
+            <video autoplay muted loop id="myVideo">
+                <source src="assets/videos/3138850444.mp4" type="video/mp4">
+            </video>
+
+            <div class="typewriter">
+                <div class="typewriter-text">Hello, I'm Carolina, a Full-Stack Developer.</div>
+            </div>
+        </div>
+
+        <!-- Projects Div -->
+        <!-- <h2>Work</h2> -->
+        <div class="projects" id="projs">
+            <div class="carousel-wrapper">
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="image-one"></div>
+                        <div class="image-two"></div>
+                        <div class="image-three"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="m365-text">
+                <div class="m365-description">
+                    <h2>Description</h2>
+                    <p>In this project, my team and I were supposed to develop a web application which serves as a
+                        learning platform for customers who want to learn Windows technologies such as PowerPoint,
+                        OneDrive, SharePoint, among others.</p>
+                </div>
+
+                <div class="m365-techstack">
+                    <h2>Technologies</h2>
+                    <div class="tech-icons">
+                        <div class="m365fe">
+                            <h3>Front-End</h3>
+                            <div class="m365-frontend" id="m365-frontend">
+                                <i class="fa-brands fa-html5" id="ic"></i>
+                                <i class="fa-brands fa-css3" id="ic2"></i>
+                                <i class="fa-brands fa-js" id="ic3"></i>
+                            </div>
+                        </div>
+                        <div class="m365be">
+                            <h3>Back-End</h3>
+                            <div class="m365-backend">
+                                <img src="./assets/images/003-c-logo.png" alt="" id="csharp">
+                                <img src="./assets/images/Meu projeto.png" alt="" id="efcore">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- end alt bike project -->
+        </div>
+
+        <div class="altbike-projects" id="altbike-projs">
+
+            <!-- alt bike project -->
+            <div class="altbike-text">
+                <div class="altbike-description">
+                    <h2>Description</h2>
+                    <p>The idea of this project was to create an imaginary company that sold whatever I wished. Since
+                        I'm a bike lover, I created alt bike. The logo, the idea, the colors, everything was my idea.
+                    </p>
+                </div>
+
+                <div class="altbike-techstack">
+                    <h2>Technologies</h2>
+                    <div class="tech-icons">
+                        <div class="altbikefe">
+                            <h3>Front-End</h3>
+                            <div class="altbike-frontend" id="altbike-frontend">
+                                <i class="fa-brands fa-html5" id="ic4"></i>
+                                <i class="fa-brands fa-css3" id="ic5"></i>
+                                <i class="fa-brands fa-js" id="ic6"></i>
+                            </div>
+                        </div>
+                        <!-- <div class="altbikebe">
+                            <h3>Back-End</h3>
+                            <div class="altbike-backend">
+                                <img src="./assets/images/c-sharp.png" alt="" srcset="" id="csharp">
+                                <img src="./assets/images/efcore-removebg-preview.png" alt="" srcset="" id="efcore">
+                            </div>
+                        </div> -->
+                        <!-- <a href="https://carolinascarneiro.github.io/alt-bike-hp/"><h2>Live Website</h2></a> -->
+                    </div>
+                    <a href="https://carolinascarneiro.github.io/alt-bike-hp/">
+                        <h2>Live Website</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="carousel1-wrapper">
+                <div class="carousel1-container">
+                    <div class="carousel1">
+                        <div class="image-one1"></div>
+                        <div class="image-two1"></div>
+                        <div class="image-three1"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end alt bike project -->
+
+        <!-- About -->
+        <div class="about" id="about">
+            <img src="./assets/images/carolina_carneiro_web.jpg" alt="">
+            <div class="abouttxt">
+                <h2>Who am I?</h2>
+                <p> I'm a since 2018 Berlin-based ex-German teacher who got to participate on a Hackathon to develop an
+                    app to teach German, where my tech journey started.
+                    I love to develop applications and to show my creativity through coding:
+
+                    <br><br>In my Software Engineering path, I made experiences with:
+                    <br>🤖 Data Science and Machine Learning
+                    <br>🐍 Python
+                    <br>☕ Java
+                    <br>💻 HTML, CSS, Javascript (WebDev core combo)
+                    <br>©️#
+                    <br>🏃🏻‍♀️ Agile methods and SCRUM frameworks
+
+                    <br><br>Personally, I'm also: <br>🏳️‍🌈 Part of the LGBTQIA+ community <br>👾 Into MMROPG
+                    <br>🎸🪘🎤
+                    Very much into music making and producing
+                </p>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="contact" id="contact">
+            <h2>Would you like to connect with me?</h2>
+            <div class="flex-divs">
+                <div class="social-media">
+                    <h2>Linkedin</h2>
+                    <br>
+                    <h2>Github</h2>
+                    <p></p>
+                </div>
+                <div class="contact-form">
+                    <h2>How to Contact Me</h2>
+                    <form>
+                        <label for="email-input">Please write your message here</label>
+                        <textarea id="email-input" rows="10"></textarea>
+                    </form>
+                </div>
+            </div>
         </div>
     </main>
+
     <footer>
         <div class="footer-text">
             <div id="footer1">
@@ -54,98 +200,7 @@
         </div>
     </footer>
 
-    <!-- Projects Div -->
-    <div class="projects">
-        <h2>Work</h2>
-        <div class="m365kp">
-            <div class="m365kp-images">
-            </div>
-            <div class="m365-text">
-                <div class="m365-description">
-                    <h3>Description</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea porro animi voluptatem laboriosam
-                        maiores pariatur sit sed, at fuga corrupti dolores alias adipisci fugit odio architecto dolor
-                        facere perspiciatis distinctio.</p>
-                </div>
-                <div class="m365-techstack">
-                    <h3>Technologies</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum animi quo quas repellendus quod
-                        necessitatibus quisquam, reprehenderit deleniti voluptatibus illo amet unde facilis. Dolorum
-                        iure rem illo illum harum exercitationem.</p>
-                </div>
-            </div>
-        </div>
-        <h2>Self-Study</h2>
-        <div class="alt-bike-project">
-            <div class="alt-bike-video">
-                <video></video>
-            </div>
-            <div class="alt-bike-text">
-                <div class="alt-bike-description">
-                    <h3>Description</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea porro animi voluptatem laboriosam
-                        maiores pariatur sit sed, at fuga corrupti dolores alias adipisci fugit odio architecto dolor
-                        facere perspiciatis distinctio.</p>
-                </div>
-                <div class="alt-bike-techstack">
-                    <h3>Technologies</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum animi quo quas repellendus quod
-                        necessitatibus quisquam, reprehenderit deleniti voluptatibus illo amet unde facilis. Dolorum
-                        iure rem illo illum harum exercitationem.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="wordle-project">
-            <div class="wordle-text">
-                <div class="wordle-description">
-                    <h3>Description</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea porro animi voluptatem laboriosam
-                        maiores pariatur sit sed, at fuga corrupti dolores alias adipisci fugit odio architecto dolor
-                        facere perspiciatis distinctio.</p>
-                </div>
-                <div class="wordle-techstack">
-                    <h3>Technologies</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum animi quo quas repellendus quod
-                        necessitatibus quisquam, reprehenderit deleniti voluptatibus illo amet unde facilis. Dolorum
-                        iure rem illo illum harum exercitationem.</p>
-                </div>
-            </div>
-            <div class="wordle-video">
-                <iframe>
-            </div>
-        </div>
-    </div>
-
-    <!-- About -->
-    <div class="about">
-        <img>
-        <h2>Who am I?</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure nisi ratione beatae, numquam culpa minus ea
-            laudantium fugit temporibus dolorem ipsa corporis deserunt iste omnis repellat placeat. Eum, reiciendis
-            quibusdam.</p>
-    </div>
-
-    <!-- Contact -->
-    <div class="contact">
-        <div class="social-media">
-            <h2>Linkedin</h2>
-            <icon></icon>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus iusto, ut repudiandae sit, enim
-                dicta fugit doloribus magnam assumenda id error porro odit accusantium mollitia eos nihil molestias
-                esse!</p>
-            <br>
-            <h2>Github</h2>
-            <icon></icon>
-            <p></p>
-        </div>
-        <div class="contact-form">
-            <h2>How to Contact Me</h2>
-            <label for="email-input">Please write your message here</label>
-            <textarea id="email-input" rows="10"></textarea>
-            </form>
-        </div>
-    </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
