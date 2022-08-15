@@ -33,7 +33,7 @@ nav ul {
 }
 
 nav ul li {
-    /* border-bottom: 1px solid black; */
+    border-bottom: 1px solid black;
 }
 
 #items li:hover {
@@ -517,6 +517,24 @@ main video {
 
 .linkedin i, .github i {
   font-size: 2rem;
+}
+
+div.linkedin a {
+  text-decoration: none;
+}
+
+div.linkedin a:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+div.github a {
+  text-decoration: none;
+}
+
+div.github a:hover {
+  color: white;
+  transform: scale(1.1);
 }
 
 
