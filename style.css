@@ -140,6 +140,10 @@ main video {
     animation: moveToRight 1s ease-in-out;
 }
 
+#text {
+  padding-top: 2.5rem;
+}
+
 #projs {
     padding-top: 11rem;
     display: flex;
