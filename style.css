@@ -165,7 +165,8 @@ main video {
 
 .m365-backend {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    column-gap: 0.2rem;
 }
 
 .carousel-wrapper {
@@ -285,7 +286,8 @@ main video {
   }
 
   #efcore {
-    height: 5rem;
+    height: 2rem;
+    width: 2rem;
   }
 
   .tech-icons {
@@ -437,10 +439,6 @@ main video {
   #csharp {
     height: 5rem;
     width: 5rem;
-  }
-
-  #efcore {
-    height: 5rem;
   }
 
   .tech-icons {
