@@ -556,6 +556,38 @@ div.github a:hover {
   transform: scale(1.1);
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form label {
+  padding: 10px;
+}
+
+.form input {
+  margin: 7px;
+}
+
+#email-input {
+  width: 15.5rem;
+}
+
+.form textarea {
+  margin: 10px;
+}
+
 
 /* end of contact section */
 
