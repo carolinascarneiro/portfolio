@@ -4,40 +4,45 @@
 
 body {
     margin: 0px;
-    background-color: #68A7AD;
+    background-color: #AB92BF;
 }
 
 /* Navbar */
 
 nav {
     position: fixed;
-    height: 14rem;
+    height: 10rem;
     width: 100%;
-    background-color: #99C4C8;
+    /* background-color: linear-gradient(to right, rgba(104,167,173,0), rgba(104,167,173,1)); */
+    background-color: rgba(104, 167, 173, 0.7);
     z-index: 1000;
+    color: white;
 }
 
 nav .lists {
     display: flex;
-    height: 14.99rem;
+    height: 10rem;
     width: 95%;
     font-family: 'work-sans', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
     list-style: none;
-    font-size: 2.1rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
 }
 
 nav ul li {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
+    cursor: pointer;
 }
 
 #items li:hover {
-    background-color: #E5CB9F;
+    background-color: #AB92BF;
+    cursor: pointer;
 }
 
 nav ::before {
@@ -59,7 +64,7 @@ nav ::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background: hsl(200 100% 80%);
+    background: rgba(104, 167, 173, 1);
     z-index: -1;
     transition: transform .3s ease;
 }
@@ -145,7 +150,7 @@ main video {
 }
 
 #projs {
-    padding-top: 11rem;
+    padding-top: 6rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -155,6 +160,7 @@ main video {
     /* border-bottom: 1px solid black; */
     /* flex-wrap: wrap; */
     padding-left: 20px;
+    color: white;
 }
 
 /* M365 Project */
@@ -165,6 +171,10 @@ main video {
     display: flex;
     /* flex-direction: column; */
     column-gap: 2rem;
+}
+
+div.tech-icons {
+  margin-top: -1rem;
 }
 
 .m365-backend {
@@ -312,6 +322,7 @@ main video {
     display: none;
     font-family: 'work-sans', sans-serif;
     animation: moveToRight 1s ease-in-out;
+    color: white;
 }
 
 #altbike-projs {
@@ -514,7 +525,8 @@ main video {
 
 .about {
     display: none;
-    margin-top: 14rem;
+    color: white;
+    margin-top: 10rem;
     /* border-bottom: 1px solid black; */
     padding: 2rem 2rem;
     font-family: 'work-sans', sans-serif;
@@ -540,7 +552,8 @@ main video {
 }
 
 .abouttxt {
-    width: 700px;
+    width: 87%;
+
 }
 
 .about a {
@@ -568,17 +581,21 @@ main video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 14rem;
+    margin-top: 11rem;
     font-family: 'work-sans', sans-serif;
     flex-direction: column;
     /* border-bottom: 1px solid black; */
     column-gap: 2rem;
+    color: white;
 }
 
 .contact .flex-divs {
   display: flex;
+  flex-direction: column;
   width: 80%;
   column-gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-media {
@@ -657,6 +674,17 @@ div.github a:hover {
 
 .form input {
   margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+}
+
+#connect {
+  padding: 5px 10px;
+  font-family: 'work-sans', sans-serif;
+  font-weight: bold;
+  background-color: white;
+  color: black;
 }
 
 #email-input {
@@ -676,6 +704,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #655A7C;
+    opacity: 0.7;
+    color: white;
     border-top: 1px solid black;
 }
 
